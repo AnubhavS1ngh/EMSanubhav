@@ -141,11 +141,11 @@ const employees = [
   }
 ];
 
-// const admin = [{
-//   "id": "admin",
-//   "email": "admin@example.com",
-//   "password": "adminpass",
-// }];
+const admin = [{
+  "id": "admin",
+  "email": "admin@example.com",
+  "password": "adminpass",
+}];
 
 export const setLocalStorage = ()=>{
   localStorage.setItem('employees', JSON.stringify(employees))
